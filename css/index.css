@@ -188,4 +188,50 @@ footer nav a {
 }
 
 
-Style Section
+/* ====about.html Style Section Below=========== */
+
+
+.aboutBoxesWrapper {
+display: flex;
+flex-flow: row wrap;
+}
+
+.aboutBoxes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 40%;
+    margin: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.aboutBoxes p, .aboutBoxes h2{
+margin: 20px 0px;
+}
+
+aboutBoxes img{
+    margin: 20px 0px;
+    max-width: 320px;
+}
+
+button {
+    width:100px;
+    height:27px;
+    text-align:center;
+    margin: 20px;
+    background-color: white;
+    border: 1.2px solid black; 
+    border-radius: 4px;
+}
+
+.workTogetherSection {
+Display: flex;
+flex-direction: column;
+margin: 25px 0px;
+}
+
+.aboutSection {
+    Display: flex;
+    flex-direction: column;
+    margin: 25px 0px;
+    }
