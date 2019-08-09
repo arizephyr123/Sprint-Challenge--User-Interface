@@ -71,11 +71,25 @@ p {
     margin: 0 auto;
 }
 
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 20px 0px;
     border-bottom: 1px dashed black;
 }
 
@@ -112,6 +126,34 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background-color: teal;
+}
+#box2 {
+    background-color: gold;
+}
+#box3 {
+    background-color: cadetblue;
+}
+#box4 {
+    background-color: coral;
+}
+#box5 {
+    background-color: crimson;
+}
+#box6 {
+    background-color: forestgreen;
+}
+#box7 {
+    background-color: darkorchid;
+}
+#box8 {
+    background-color: hotpink;
+}#box9 {
+    background-color: indigo;
+}#box10 {
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +186,58 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* ====about.html Style Section Below=========== */
+
+hr {
+border: 0.7px dashed black;
+}
+
+.aboutBoxesWrapper {
+display: flex;
+flex-flow: row wrap;
+width; 100%;
+}
+
+.aboutBoxes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 45%;
+    margin: 20px 12px 20px 12px;
+    border-bottom: 1px dashed black;
+}
+
+.aboutBoxes p, .aboutBoxes h2{
+margin: 15px 0px 7.5px 0px;
+}
+
+.aboutBoxes img{
+    margin: 20px 0px;
+    width: 100%;
+    align-items: center;
+    
+}
+
+button {
+    width:100px;
+    height:27px;
+    text-align:center;
+    margin: 15px 0px 15px 0px;
+    background-color: white;
+    border: 1.2px solid black; 
+    border-radius: 4px;
+}
+
+.workTogetherSection {
+Display: flex;
+flex-direction: column;
+margin: 30px 0px;
+}
+
+.aboutSection {
+    Display: flex;
+    flex-direction: column;
+    margin: 25px 0px;
+    }
